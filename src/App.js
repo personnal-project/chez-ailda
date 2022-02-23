@@ -1,4 +1,5 @@
-import './static/scss/App.scss'
+import React from 'react';
+import './static/scss/App.scss';
 
 function App() {
   return (
@@ -11,7 +12,13 @@ function App() {
             <li>Carte</li>
             <li>Contact</li>
           </div>
-        <div className='Hamburger'></div>
+        <div className='hamburger'>
+          <i class="bi bi-list"></i>
+        </div>
+      </div>
+
+      <div className='Error'>
+        <h2>Un site crée avec amour</h2>
       </div>
      
     </div>
